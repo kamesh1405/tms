@@ -1,0 +1,60 @@
+{% load static %}
+{% block body %}
+<html>
+<head>
+<title>TRAFFIC AND ROAD SAFETY Management System | Home</title>
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all"/>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" media="all"/>
+<!--//theme-style-->
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</head>
+<body>
+<div class="header">
+
+</div>
+ {% include 'header.html' %}
+
+<!--content-->
+	<div class="content">
+		<div class="container">
+
+			<div class="content-welcome">
+
+				<div class="col-md-8 come">
+					<div class=" welcome">
+						<a href="index.php"><img src="{% static 'images/commisioner.jpg' %}" style = "border : 2px solid #1B3E5C" alt=""></a>
+					</div>
+				</div>
+				<div class="col-md-4 red">
+				<h1> TRAFFIC AND ROAD SAFETY MANAGEMENT SYSTEM</h1>
+				<h1> -----------------------------------------</h1>
+				<h2> ONLINE COMPLAINT MANAGEMENT SITE </h2>
+				<h1> -----------------------------------------</h1>
+				<h3>Mission & Vision</h3>
+				<ul>
+							<li>Welcome to our Online Traffic and Road Safety Management System! We are a dedicated team of professionals passionate about ensuring safer and more efficient traffic management on roads.</li>
+							<li>At our core, we recognize the significance of road safety and its impact on society. </li>
+							<li>With increasing urbanization and growing traffic congestion, </li>
+							<li>it has become essential to develop intelligent solutions that optimize traffic flow,</li>
+							<li>enhance road safety measures, and improve overall transportation efficiency.</li>
+							<li></li>
+							<li></li>
+	</ul>
+				</div>
+				<div class="clearfix"> </div>
+
+			</div>
+
+		</div>
+
+		<!--footer-->
+		 {% include 'footer.html' %}
+		<!--//footer-->
+</body>
+</html>
+{% endblock %}
